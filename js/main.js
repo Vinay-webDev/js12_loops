@@ -99,6 +99,7 @@ while (counter <=3) {
 console.log(counter);
 */
 ////////////////////////////////////////////////////////////////////////////
+/*
 let name = "Xian";
 let counter = 0;
 let myCharacter;
@@ -114,13 +115,16 @@ while (counter <=3) {
     counter++;
 }
 console.log(counter);
+*/
 /////////////////////////////////////////////////////////
-
-
-
-
-
-
+function sumArray (ar) {
+    let sum =0;
+    for (let i = 0; i < ar.length; i++ ) {
+        sum += ar[i];
+    }
+    return sum;
+}
+console.log(sumArray([3, 5, 6, 9, 11, 23]));
 
 
 
